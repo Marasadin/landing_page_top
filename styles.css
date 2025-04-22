@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     justify-content: center;
     justify-content: stretch;
+    height: 100%;
 
 }
 .sekcja1,
@@ -11,7 +12,6 @@ body {
 .sekcja4 {
     flex: auto;
     flex-grow: 1;
-    height: 300px;
 }
 .sekcja1 {
     background-color: #1F2937;
