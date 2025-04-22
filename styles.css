@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: stretch;
+
+}
+.sekcja1,
+.sekcja2,
+.sekcja3,
+.sekcja4 {
+    flex: auto;
+    flex-grow: 1;
+    height: 300px;
+}
+.sekcja1 {
+    background-color: #1F2937;
+}
+
+.sekcja2 {
+    
+}
+
+.sekcja3 {
+    background-color: #E5E7EB;
+    
+}
