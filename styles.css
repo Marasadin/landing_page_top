@@ -1,9 +1,11 @@
 body {
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     justify-content: stretch;
     height: 100%;
+
 
 }
 .sekcja1,
@@ -13,10 +15,38 @@ body {
     flex: auto;
     flex-grow: 1;
 }
-.sekcja1 {
+
+.header {
     background-color: #1F2937;
 }
 
+.sekcja1 {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+}
+.s1left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+.tab1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;   
+}
+.tab2 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.s1right {
+    margin-left: auto;
+}
+
+.logo {
+    min-width: 500px;
+}
 .sekcja2 {
     
 }
