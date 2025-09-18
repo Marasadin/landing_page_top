@@ -48,10 +48,52 @@ body {
     min-width: 500px;
 }
 .sekcja2 {
+    display: block;
+}
+.sekcja3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    align-items: center;
     
 }
+.s2header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
 
-.sekcja3 {
-    background-color: #E5E7EB;
+}
+.squares {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+}
+.section {
+    display: block;
+    width: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex: none;
+}
+.s2square {
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #3882f6;
+    flex: none;
+}
+blockquote {
+    text-align: left;
+}
+blockquote + p {
     
 }
