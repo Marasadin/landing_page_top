@@ -88,6 +88,7 @@ a {
     margin: 25px;
 }
 .sekcja2 {
+    background-color: #FFFFFF;
     display: block;
     margin-bottom: 80px;
 }
@@ -134,6 +135,7 @@ a {
     flex: none;
 }
 .sekcja4 {
+    background-color: #FFFFFF;
     margin: auto;
 }
 .frame4 {
@@ -171,4 +173,13 @@ blockquote + p {
 }
 .f4text {
     color: #F9FAF8;
+}
+footer {
+    background-color: #1F2937;
+    justify-items: center;
+}
+footer > p {
+    color: #E5E7EB;
+    margin-top: 25 px;
+    margin-bottom: 25px;
 }
